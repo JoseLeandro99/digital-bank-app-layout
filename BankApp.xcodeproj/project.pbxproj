@@ -9,13 +9,35 @@
 /* Begin PBXBuildFile section */
 		9C1C22862898004C00526B6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22852898004C00526B6C /* AppDelegate.swift */; };
 		9C1C22882898004C00526B6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22872898004C00526B6C /* SceneDelegate.swift */; };
-		9C1C228A2898004C00526B6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22892898004C00526B6C /* ViewController.swift */; };
-		9C1C228D2898004C00526B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1C228B2898004C00526B6C /* Main.storyboard */; };
 		9C1C228F2898004E00526B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1C228E2898004E00526B6C /* Assets.xcassets */; };
 		9C1C22922898004E00526B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1C22902898004E00526B6C /* LaunchScreen.storyboard */; };
 		9C1C229D2898004F00526B6C /* BankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C229C2898004F00526B6C /* BankAppTests.swift */; };
 		9C1C22A72898004F00526B6C /* BankAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22A62898004F00526B6C /* BankAppUITests.swift */; };
 		9C1C22A92898004F00526B6C /* BankAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22A82898004F00526B6C /* BankAppUITestsLaunchTests.swift */; };
+		9C1C22B8289800F100526B6C /* AppLightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22B7289800F100526B6C /* AppLightTheme.swift */; };
+		9C1C22BD289802C800526B6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22BC289802C800526B6C /* HomeViewController.swift */; };
+		9C1C22BF289802F800526B6C /* RootTabBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22BE289802F800526B6C /* RootTabBarConfig.swift */; };
+		9C1C22C92898091D00526B6C /* ViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22C82898091D00526B6C /* ViewProtocols.swift */; };
+		9C1C22CE28980A7500526B6C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22CD28980A7500526B6C /* UIView+Extensions.swift */; };
+		9C1C22D028980C6100526B6C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22CF28980C6100526B6C /* HomeView.swift */; };
+		9C1C22D328981A9400526B6C /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22D228981A9400526B6C /* AppLabel.swift */; };
+		9C1C22D62898218800526B6C /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22D52898218800526B6C /* AppButton.swift */; };
+		9C1C22D92898251000526B6C /* AppAmountHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22D82898251000526B6C /* AppAmountHeader.swift */; };
+		9C1C22DD28982B2600526B6C /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22DC28982B2600526B6C /* PaymentsViewController.swift */; };
+		9C1C22DF28982B4400526B6C /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22DE28982B4400526B6C /* PaymentView.swift */; };
+		9C1C22E228982D6D00526B6C /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22E128982D6D00526B6C /* CreditViewController.swift */; };
+		9C1C22E428982D7600526B6C /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22E328982D7600526B6C /* CreditView.swift */; };
+		9C1C22E728982EF100526B6C /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22E628982EF100526B6C /* HistoryView.swift */; };
+		9C1C22E928982EFD00526B6C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C22E828982EFD00526B6C /* HistoryViewController.swift */; };
+		9C3F3534289870B100932D88 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F3533289870B100932D88 /* AppImage.swift */; };
+		9C3F353628987D4100932D88 /* PaymentView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F353528987D4100932D88 /* PaymentView+Extensions.swift */; };
+		9C3F353828987DBE00932D88 /* HomeView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F353728987DBE00932D88 /* HomeView+Extensions.swift */; };
+		9C3F353B28987EC900932D88 /* PaymentModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F353A28987EC900932D88 /* PaymentModalController.swift */; };
+		9C3F353D28989A2A00932D88 /* AppSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F353C28989A2A00932D88 /* AppSlider.swift */; };
+		9C3F353F28989B3F00932D88 /* CreditView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F353E28989B3F00932D88 /* CreditView+Extensions.swift */; };
+		9C3F354228989D7600932D88 /* TransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F354128989D7600932D88 /* TransactionHistory.swift */; };
+		9C3F35452898A0CB00932D88 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F35442898A0CB00932D88 /* TransactionTableViewCell.swift */; };
+		9C3F35482898B65D00932D88 /* UIAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F35472898B65D00932D88 /* UIAlertHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +61,6 @@
 		9C1C22822898004C00526B6C /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1C22852898004C00526B6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C1C22872898004C00526B6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C1C22892898004C00526B6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9C1C228C2898004C00526B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C1C228E2898004E00526B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C1C22912898004E00526B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1C22932898004E00526B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +69,30 @@
 		9C1C22A22898004F00526B6C /* BankAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1C22A62898004F00526B6C /* BankAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAppUITests.swift; sourceTree = "<group>"; };
 		9C1C22A82898004F00526B6C /* BankAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C1C22B7289800F100526B6C /* AppLightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLightTheme.swift; sourceTree = "<group>"; };
+		9C1C22BC289802C800526B6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C1C22BE289802F800526B6C /* RootTabBarConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarConfig.swift; sourceTree = "<group>"; };
+		9C1C22C82898091D00526B6C /* ViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocols.swift; sourceTree = "<group>"; };
+		9C1C22CD28980A7500526B6C /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		9C1C22CF28980C6100526B6C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9C1C22D228981A9400526B6C /* AppLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
+		9C1C22D52898218800526B6C /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		9C1C22D82898251000526B6C /* AppAmountHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAmountHeader.swift; sourceTree = "<group>"; };
+		9C1C22DC28982B2600526B6C /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		9C1C22DE28982B4400526B6C /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		9C1C22E128982D6D00526B6C /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		9C1C22E328982D7600526B6C /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		9C1C22E628982EF100526B6C /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		9C1C22E828982EFD00526B6C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9C3F3533289870B100932D88 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		9C3F353528987D4100932D88 /* PaymentView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaymentView+Extensions.swift"; sourceTree = "<group>"; };
+		9C3F353728987DBE00932D88 /* HomeView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView+Extensions.swift"; sourceTree = "<group>"; };
+		9C3F353A28987EC900932D88 /* PaymentModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModalController.swift; sourceTree = "<group>"; };
+		9C3F353C28989A2A00932D88 /* AppSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSlider.swift; sourceTree = "<group>"; };
+		9C3F353E28989B3F00932D88 /* CreditView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreditView+Extensions.swift"; sourceTree = "<group>"; };
+		9C3F354128989D7600932D88 /* TransactionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistory.swift; sourceTree = "<group>"; };
+		9C3F35442898A0CB00932D88 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		9C3F35472898B65D00932D88 /* UIAlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +143,15 @@
 		9C1C22842898004C00526B6C /* BankApp */ = {
 			isa = PBXGroup;
 			children = (
-				9C1C22852898004C00526B6C /* AppDelegate.swift */,
-				9C1C22872898004C00526B6C /* SceneDelegate.swift */,
-				9C1C22892898004C00526B6C /* ViewController.swift */,
-				9C1C228B2898004C00526B6C /* Main.storyboard */,
-				9C1C228E2898004E00526B6C /* Assets.xcassets */,
-				9C1C22902898004E00526B6C /* LaunchScreen.storyboard */,
+				9C3F35462898B65200932D88 /* Helpers */,
+				9C3F354028989D0C00932D88 /* Models */,
+				9C1C22C6289808F800526B6C /* Protocols */,
+				9C1C22CC28980A6400526B6C /* Extensions */,
+				9C1C22C02898080100526B6C /* Components */,
+				9C1C22BA289802A900526B6C /* Modules */,
+				9C1C22B92898020800526B6C /* Application */,
+				9C1C22B5289800C700526B6C /* Resources */,
+				9C1C22B6289800E200526B6C /* Theme */,
 				9C1C22932898004E00526B6C /* Info.plist */,
 			);
 			path = BankApp;
@@ -125,6 +172,161 @@
 				9C1C22A82898004F00526B6C /* BankAppUITestsLaunchTests.swift */,
 			);
 			path = BankAppUITests;
+			sourceTree = "<group>";
+		};
+		9C1C22B5289800C700526B6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C228E2898004E00526B6C /* Assets.xcassets */,
+				9C1C22902898004E00526B6C /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C1C22B6289800E200526B6C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22B7289800F100526B6C /* AppLightTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9C1C22B92898020800526B6C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22852898004C00526B6C /* AppDelegate.swift */,
+				9C1C22872898004C00526B6C /* SceneDelegate.swift */,
+				9C1C22BE289802F800526B6C /* RootTabBarConfig.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9C1C22BA289802A900526B6C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22E528982EE200526B6C /* History */,
+				9C1C22E028982D5000526B6C /* Credit */,
+				9C1C22DA28982B0800526B6C /* Payments */,
+				9C1C22BB289802BA00526B6C /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9C1C22BB289802BA00526B6C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22BC289802C800526B6C /* HomeViewController.swift */,
+				9C1C22CF28980C6100526B6C /* HomeView.swift */,
+				9C3F353728987DBE00932D88 /* HomeView+Extensions.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9C1C22C02898080100526B6C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22D72898250200526B6C /* Custom */,
+				9C1C22D128981A8900526B6C /* Generic */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9C1C22C6289808F800526B6C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22C82898091D00526B6C /* ViewProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9C1C22CC28980A6400526B6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22CD28980A7500526B6C /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C1C22D128981A8900526B6C /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22D228981A9400526B6C /* AppLabel.swift */,
+				9C1C22D52898218800526B6C /* AppButton.swift */,
+				9C3F3533289870B100932D88 /* AppImage.swift */,
+				9C3F353C28989A2A00932D88 /* AppSlider.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		9C1C22D72898250200526B6C /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22D82898251000526B6C /* AppAmountHeader.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		9C1C22DA28982B0800526B6C /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				9C3F353928987EB500932D88 /* modal */,
+				9C1C22DC28982B2600526B6C /* PaymentsViewController.swift */,
+				9C1C22DE28982B4400526B6C /* PaymentView.swift */,
+				9C3F353528987D4100932D88 /* PaymentView+Extensions.swift */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		9C1C22E028982D5000526B6C /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				9C1C22E128982D6D00526B6C /* CreditViewController.swift */,
+				9C1C22E328982D7600526B6C /* CreditView.swift */,
+				9C3F353E28989B3F00932D88 /* CreditView+Extensions.swift */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		9C1C22E528982EE200526B6C /* History */ = {
+			isa = PBXGroup;
+			children = (
+				9C3F35432898A0B300932D88 /* TransactionTableViewCell */,
+				9C1C22E628982EF100526B6C /* HistoryView.swift */,
+				9C1C22E828982EFD00526B6C /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		9C3F353928987EB500932D88 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				9C3F353A28987EC900932D88 /* PaymentModalController.swift */,
+			);
+			path = modal;
+			sourceTree = "<group>";
+		};
+		9C3F354028989D0C00932D88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C3F354128989D7600932D88 /* TransactionHistory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C3F35432898A0B300932D88 /* TransactionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9C3F35442898A0CB00932D88 /* TransactionTableViewCell.swift */,
+			);
+			path = TransactionTableViewCell;
+			sourceTree = "<group>";
+		};
+		9C3F35462898B65200932D88 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9C3F35472898B65D00932D88 /* UIAlertHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +435,6 @@
 			files = (
 				9C1C22922898004E00526B6C /* LaunchScreen.storyboard in Resources */,
 				9C1C228F2898004E00526B6C /* Assets.xcassets in Resources */,
-				9C1C228D2898004C00526B6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +459,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C1C228A2898004C00526B6C /* ViewController.swift in Sources */,
 				9C1C22862898004C00526B6C /* AppDelegate.swift in Sources */,
+				9C1C22D328981A9400526B6C /* AppLabel.swift in Sources */,
 				9C1C22882898004C00526B6C /* SceneDelegate.swift in Sources */,
+				9C3F353F28989B3F00932D88 /* CreditView+Extensions.swift in Sources */,
+				9C3F353828987DBE00932D88 /* HomeView+Extensions.swift in Sources */,
+				9C1C22DD28982B2600526B6C /* PaymentsViewController.swift in Sources */,
+				9C3F35482898B65D00932D88 /* UIAlertHelper.swift in Sources */,
+				9C1C22E428982D7600526B6C /* CreditView.swift in Sources */,
+				9C3F353D28989A2A00932D88 /* AppSlider.swift in Sources */,
+				9C1C22B8289800F100526B6C /* AppLightTheme.swift in Sources */,
+				9C1C22D028980C6100526B6C /* HomeView.swift in Sources */,
+				9C1C22CE28980A7500526B6C /* UIView+Extensions.swift in Sources */,
+				9C3F354228989D7600932D88 /* TransactionHistory.swift in Sources */,
+				9C1C22E228982D6D00526B6C /* CreditViewController.swift in Sources */,
+				9C1C22E728982EF100526B6C /* HistoryView.swift in Sources */,
+				9C1C22DF28982B4400526B6C /* PaymentView.swift in Sources */,
+				9C1C22BF289802F800526B6C /* RootTabBarConfig.swift in Sources */,
+				9C3F35452898A0CB00932D88 /* TransactionTableViewCell.swift in Sources */,
+				9C1C22BD289802C800526B6C /* HomeViewController.swift in Sources */,
+				9C3F353628987D4100932D88 /* PaymentView+Extensions.swift in Sources */,
+				9C1C22C92898091D00526B6C /* ViewProtocols.swift in Sources */,
+				9C1C22D62898218800526B6C /* AppButton.swift in Sources */,
+				9C3F353B28987EC900932D88 /* PaymentModalController.swift in Sources */,
+				9C1C22E928982EFD00526B6C /* HistoryViewController.swift in Sources */,
+				9C1C22D92898251000526B6C /* AppAmountHeader.swift in Sources */,
+				9C3F3534289870B100932D88 /* AppImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +521,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9C1C228B2898004C00526B6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C1C228C2898004C00526B6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9C1C22902898004E00526B6C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +657,6 @@
 				INFOPLIST_FILE = BankApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +683,6 @@
 				INFOPLIST_FILE = BankApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
