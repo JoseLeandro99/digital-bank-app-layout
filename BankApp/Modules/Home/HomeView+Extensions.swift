@@ -19,4 +19,14 @@ extension HomeView {
             self.AppHeader.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -12)
         ])
     }
+    
+    func setupCollectionAction() {
+        self.addSubview(self.collectionActions)
+        NSLayoutConstraint.activate([
+            self.collectionActions.topAnchor.constraint(equalTo: self.AppHeader.bottomAnchor, constant: 20),
+            self.collectionActions.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 10),
+            self.collectionActions.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -10),
+            self.collectionActions.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: 10)
+        ])
+    }
 }

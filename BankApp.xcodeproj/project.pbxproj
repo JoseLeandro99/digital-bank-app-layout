@@ -38,6 +38,9 @@
 		9C3F354228989D7600932D88 /* TransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F354128989D7600932D88 /* TransactionHistory.swift */; };
 		9C3F35452898A0CB00932D88 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F35442898A0CB00932D88 /* TransactionTableViewCell.swift */; };
 		9C3F35482898B65D00932D88 /* UIAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F35472898B65D00932D88 /* UIAlertHelper.swift */; };
+		9CC296E3289C9EC9003750FE /* CollectionActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC296E2289C9EC9003750FE /* CollectionActionCell.swift */; };
+		9CC296E5289C9FB8003750FE /* HomeViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC296E4289C9FB8003750FE /* HomeViewController+Extensions.swift */; };
+		9CC296E7289CA4AF003750FE /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC296E6289CA4AF003750FE /* HomeAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +96,9 @@
 		9C3F354128989D7600932D88 /* TransactionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistory.swift; sourceTree = "<group>"; };
 		9C3F35442898A0CB00932D88 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		9C3F35472898B65D00932D88 /* UIAlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertHelper.swift; sourceTree = "<group>"; };
+		9CC296E2289C9EC9003750FE /* CollectionActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionActionCell.swift; sourceTree = "<group>"; };
+		9CC296E4289C9FB8003750FE /* HomeViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Extensions.swift"; sourceTree = "<group>"; };
+		9CC296E6289CA4AF003750FE /* HomeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,9 +221,11 @@
 		9C1C22BB289802BA00526B6C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9CC296E1289C9DB5003750FE /* Cell */,
 				9C1C22BC289802C800526B6C /* HomeViewController.swift */,
 				9C1C22CF28980C6100526B6C /* HomeView.swift */,
 				9C3F353728987DBE00932D88 /* HomeView+Extensions.swift */,
+				9CC296E4289C9FB8003750FE /* HomeViewController+Extensions.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -309,6 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				9C3F354128989D7600932D88 /* TransactionHistory.swift */,
+				9CC296E6289CA4AF003750FE /* HomeAction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -327,6 +336,14 @@
 				9C3F35472898B65D00932D88 /* UIAlertHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9CC296E1289C9DB5003750FE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9CC296E2289C9EC9003750FE /* CollectionActionCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,6 +485,7 @@
 				9C3F35482898B65D00932D88 /* UIAlertHelper.swift in Sources */,
 				9C1C22E428982D7600526B6C /* CreditView.swift in Sources */,
 				9C3F353D28989A2A00932D88 /* AppSlider.swift in Sources */,
+				9CC296E5289C9FB8003750FE /* HomeViewController+Extensions.swift in Sources */,
 				9C1C22B8289800F100526B6C /* AppLightTheme.swift in Sources */,
 				9C1C22D028980C6100526B6C /* HomeView.swift in Sources */,
 				9C1C22CE28980A7500526B6C /* UIView+Extensions.swift in Sources */,
@@ -479,11 +497,13 @@
 				9C3F35452898A0CB00932D88 /* TransactionTableViewCell.swift in Sources */,
 				9C1C22BD289802C800526B6C /* HomeViewController.swift in Sources */,
 				9C3F353628987D4100932D88 /* PaymentView+Extensions.swift in Sources */,
+				9CC296E7289CA4AF003750FE /* HomeAction.swift in Sources */,
 				9C1C22C92898091D00526B6C /* ViewProtocols.swift in Sources */,
 				9C1C22D62898218800526B6C /* AppButton.swift in Sources */,
 				9C3F353B28987EC900932D88 /* PaymentModalController.swift in Sources */,
 				9C1C22E928982EFD00526B6C /* HistoryViewController.swift in Sources */,
 				9C1C22D92898251000526B6C /* AppAmountHeader.swift in Sources */,
+				9CC296E3289C9EC9003750FE /* CollectionActionCell.swift in Sources */,
 				9C3F3534289870B100932D88 /* AppImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,6 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.screen?.setupCollectionDelegate(delegate: self, dataSource: self)
     }
-    
-    
 }
